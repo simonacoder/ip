@@ -1,5 +1,5 @@
 #!/bin/bash
-oldIP=$(cat address.txt)
+oldIP=$(cat /home/simon/ip/address.txt)
 echo This is old IP: $oldIP
 
 #IP=$(curl ipecho.net/plain)
