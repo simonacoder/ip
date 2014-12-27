@@ -17,7 +17,8 @@ then
   echo "IP not changed"
 else
   echo "IP changed"
-  echo "$IP" > /home/simon/ip/address.txt
+
+#  echo "$IP" > /home/simon/ip/address.txt
  # echo $IP | mail -s "IP changed" 116981414@qq.com
   cd /home/simon/ip
   git pull origin master
@@ -26,4 +27,4 @@ else
   git push origin master
 fi
 
-#echo "$IP" >> /home/simon/ip/address.txt
+echo "$IP" >> /home/simon/ip/address.txt
