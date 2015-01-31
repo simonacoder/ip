@@ -27,3 +27,5 @@ else
 fi
 
 #echo "$IP" >> /home/simon/ip/address.txt
+#http://192.168.1.1/userRpm/StatusRpm.htm?Disconnect=%B6%CF%20%CF%DF&wan=1
+
